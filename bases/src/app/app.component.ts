@@ -6,14 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'Contador App';
-  numero: number = 1;
-  base : number = 5;
-  acumular( valor: number) {
-    this.numero += valor;
-  }
-  contar( numero: number ){
-    this.base += numero;
-
-  }
+ 
 }
