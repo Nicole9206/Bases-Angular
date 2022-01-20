@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { HeroesModule } from './Heroes/heroes.module';
 import { ContadorModule } from './contador/contador/contador.module';
+import { AvatarModule } from './avatar/avatar.module';
 
 
 
@@ -17,7 +18,8 @@ import { ContadorModule } from './contador/contador/contador.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule, 
+    AvatarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
