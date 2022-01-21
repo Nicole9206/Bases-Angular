@@ -24,6 +24,7 @@ import { Avatar } from './services/avatar.service';
   ],
   providers: [
      Avatar
-  ]
+  ],
 })
+
 export class AvatarModule { }
