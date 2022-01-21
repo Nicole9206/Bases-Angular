@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Personaje } from '../interfaces/avatar.interface';
 import { Avatar } from '../services/avatar.service';
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+
 
 
 
@@ -18,7 +18,7 @@ export class AgregarComponent  {
   }
 
   constructor( private Avatar: Avatar) {}
-  //@Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter();
+
 
   agregar(){
     if (this.nuevo.nombre.trim().length === 0) {

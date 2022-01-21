@@ -1,5 +1,5 @@
-import { Component, Input} from '@angular/core';
-import { Personaje } from '../interfaces/avatar.interface';
+import { Component} from '@angular/core';
+
 import { Avatar } from '../services/avatar.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { Avatar } from '../services/avatar.service';
   styleUrls: ['./personajes.component.css']
 })
 export class PersonajesComponent  {
-  //@Input() personajes: Personaje [] =[] ;
+
   get personajes(){
     return this.Avatar.personajes;
   }
