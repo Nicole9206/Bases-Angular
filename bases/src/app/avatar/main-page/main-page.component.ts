@@ -13,7 +13,7 @@ export class MainPageComponent {
 
  
   nuevo: Personaje = {
-    nombre: 'Maestro Roshi',
+    nombre: 'Toph',
     poder: 1000
   }
 
